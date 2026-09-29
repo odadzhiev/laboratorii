@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Tue Sep 29 10:22:39 2026 as: nmap -sV -oN nmapgw.txt 10.0.1.2
+Nmap scan report for 10.0.1.2
+Host is up (0.00030s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+8009/tcp open  ajp13   Apache Jserv (Protocol v1.3)
+8080/tcp open  http    Apache Tomcat 9.0.30
+MAC Address: 08:00:27:2F:A2:DE (Oracle VirtualBox virtual NIC)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Sep 29 10:22:46 2026 -- 1 IP address (1 host up) scanned in 7.09 seconds
