@@ -1,0 +1,14 @@
+Nov 03 21:06:42 srv systemd[1]: Reloading ssh.service - OpenBSD Secure Shell server...
+Nov 03 21:06:42 srv sshd[3126]: Received SIGHUP; restarting.
+Nov 03 21:06:42 srv systemd[1]: Reloaded ssh.service - OpenBSD Secure Shell server.
+Nov 03 21:06:42 srv sshd[3126]: Server listening on 0.0.0.0 port 22.
+Nov 03 21:06:42 srv sshd[3126]: Server listening on :: port 22.
+Nov 03 21:12:58 srv sshd[4077]: Accepted publickey for student from 10.0.1.1 port 44372 ssh2: ED25519 SHA256:3MVOw9MNXeVtoollFNSH9GpvHm3t2AOvQI2QjAJRhvg
+Nov 03 21:12:58 srv sshd[4077]: pam_unix(sshd:session): session opened for user student(uid=1000) by (uid=0)
+Nov 03 21:12:58 srv sshd[4077]: pam_env(sshd:session): deprecated reading of user environment enabled
+Nov 03 21:12:58 srv sshd[4077]: pam_unix(sshd:session): session closed for user student
+Nov 03 21:15:14 srv sshd[4172]: Connection closed by authenticating user student 10.0.1.1 port 56762 [preauth]
+Nov 03 21:16:23 srv sshd[4226]: Accepted publickey for student from 10.0.1.1 port 32974 ssh2: ED25519 SHA256:3MVOw9MNXeVtoollFNSH9GpvHm3t2AOvQI2QjAJRhvg
+Nov 03 21:16:23 srv sshd[4226]: pam_unix(sshd:session): session opened for user student(uid=1000) by (uid=0)
+Nov 03 21:16:23 srv sshd[4226]: pam_env(sshd:session): deprecated reading of user environment enabled
+Nov 03 21:16:23 srv sshd[4226]: pam_unix(sshd:session): session closed for user student

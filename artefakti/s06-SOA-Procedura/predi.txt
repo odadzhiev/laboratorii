@@ -1,0 +1,4 @@
+Tue Nov  3 09:04:06 PM EET 2026
+permitrootlogin without-password
+passwordauthentication yes
+kbdinteractiveauthentication no
