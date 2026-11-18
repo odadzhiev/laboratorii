@@ -1,0 +1,8 @@
+ИЗДАДЕН ТОКЕН (първите 40 знака): eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwi...
+  iss                  http://127.0.0.1:8080/realms/agrotech
+  azp                  h08-test
+  preferred_username   admin2
+  realm_access         {'roles': ['default-roles-agrotech', 'offline_access', 'uma_authorization', 'admins']}
+  iat                  1794936925
+  exp                  1794937225
+  валиден (секунди)     300
